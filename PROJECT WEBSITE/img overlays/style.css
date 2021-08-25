@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+/* ############## utility classes ############## */
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+/* ########### NAVBAR ########### */
+/* for desktop mode */
+.navbar input[type=checkbox],
+.navbar.hamburger-lines{
+    display: none;
+}
+
+.navbar{
+    box-shadow: 5px 5px 10px 2px #aaa ;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: black;
+    opacity: 0.85;
+    z-index: 999;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+ul{
+    order: 2;
+    
+}
+h1{
+    order: 1;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 20px;    
+}
