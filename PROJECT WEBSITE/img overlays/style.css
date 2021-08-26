@@ -84,7 +84,7 @@ body{
  /* ###########showcase area############## */
  .showcase-area{
      height: 50vh;
-     background: url(./img/head.jpg);
+     background: url(./img/header-image2.jpg);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -220,8 +220,155 @@ body{
     opacity: 1;
     top: 40%;
 }
+/* ############## food menu heading ########## */
+.food-menu-heading{
+    font-size:4rem ;
+    text-align: center;
+    font-weight: 400;
+    color: #666;
+ }
 
+.food_menu_container{
+    display: flex;
      
+}
+.food_menu_container img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 50px;
+}
+
+.food-menu-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px 0px 30px 0px;
+} 
+.food-des{
+    width:200px;
+    text-align: center;
+    /* margin: auto 1.5rem; */
+}
+.food-title{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: black;
+} 
+.food-des p{
+    font-size:1.4rem;
+    font-weight: 500;
+
+}
+p.food-price{
+    color: green;
+    font-weight: 700;
+}
+/* ################ testimonial ############ */
+
+#testimonials{
+    padding: 5rem 0rem;
+    background: rgb(243, 242, 242);
+
+}
+.testimonial-title{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+.testimonial-container{
+    display: flex;
+     justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 1rem; 
+}
+.testimonial-box .checked{
+    color: #ff9529;
+}
+.testimonial-box .testimonial-text{
+    margin: 1rem 0;
+    color: #444;
+}
+.testimonial-box{
+    text-align: center;
+    padding: 1rem;
+}
+.customer-photo img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+/* ############# contact ########## */
+#contact{
+    padding: 5rem 0;
+    background: rgb(226, 226, 226);
+}
+.contact-container{
+    display: flex;
+    background: #fff;
+}
+.contact-photo{
+    width: 50%;
+}
+.contact-photo img{
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.form-container{
+    padding: 1rem;
+    width: 50%;
+    margin: auto
+}
+.form-container input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+}
+.form-container textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding:1rem 0;
+
+}
+.form-container h2{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 1rem;
+}
+.form-container a{
+    font-size: 1.2rem;
+}
+#footer{
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 3rem;
+    color: #fff;
+}
+
+
+
+      
  
   
 
